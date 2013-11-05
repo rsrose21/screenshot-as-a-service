@@ -4,5 +4,5 @@ heroku config:set LD_LIBRARY_PATH="/usr/local/lib:/usr/lib:/lib:/app/vendor/phan
 heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
 
 vi .buildpacks
-http://github.com/stomita/heroku-buildpack-phantomjs.git
+https://github.com/stomita/heroku-buildpack-phantomjs
 https://github.com/heroku/heroku-buildpack-nodejs
